@@ -1,0 +1,12 @@
+<Monitor>
+     <monTopic>DataPoint,[operation=U]DeviceCore</monTopic>
+    <monTransportType>http</monTransportType>
+      <monTransportUrl>http://18.197.174.160:3000/data</monTransportUrl>
+    <monTransportToken>username:password</monTransportToken>
+    <!--  <monTransportHeaders> header-name: header-value </monTransportHeaders> -->
+    <monTransportMethod>PUT</monTransportMethod>
+    <monFormatType>json</monFormatType>
+    <monBatchSize>100</monBatchSize>
+    <monCompression>none</monCompression>
+    <monBatchDuration>10</monBatchDuration>
+</Monitor>
